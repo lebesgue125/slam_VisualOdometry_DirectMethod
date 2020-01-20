@@ -7,7 +7,7 @@ There are some problems with using Feature-Based Method. Is there any way to ove
 
 • Calculate only key points, not descriptors. At the same time, using the **Direct Method** to calculate the position of the image feature point in the next moment. It also can skip descriptor computation process, and the calculation is more simple.
 
-- **Optical Flow**
+- **Optical Flow**  
 Optical flow is a way of describing how pixels move between images over time. The computation of partial pixel motion is called sparse optical flow, while the computation of all pixels is called dense optical flow.
 
 The sparse optical flow is represented by the **Lucas-Kanade** Optical Flow and can be used to track the position of feature points in SLAM.
